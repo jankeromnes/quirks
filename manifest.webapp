@@ -1,0 +1,14 @@
+{
+  "name": "Quirks",
+  "description": "Generates logs, warnings & errors",
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "Jan Keromnes",
+    "url": "https://github.com/jankeromnes/quirks"
+  },
+  "permissions": {
+  },
+  "icons": {
+    "128": "/icon.png"
+  }
+}
