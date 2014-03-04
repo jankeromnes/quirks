@@ -6,8 +6,7 @@
     "name": "Jan Keromnes",
     "url": "https://github.com/jankeromnes/quirks"
   },
-  "permissions": {
-  },
+  "permissions": {},
   "icons": {
     "128": "/icon.png"
   }

@@ -1,4 +1,3 @@
-
 document.querySelector('#clog').addEventListener('click', () => {
   console.log('console.log');
 });
@@ -11,8 +10,12 @@ document.querySelector('#cerr').addEventListener('click', () => {
   console.error('console.error');
 });
 
+document.querySelector('#cexc').addEventListener('click', () => {
+  console.exception('console.exception');
+});
+
 document.querySelector('#warn').addEventListener('click', () => {
-  // TODO
+  document.body.style.background = 'lol';
 });
 
 document.querySelector('#err').addEventListener('click', () => {
