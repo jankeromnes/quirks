@@ -6,7 +6,9 @@
     "name": "Jan Keromnes",
     "url": "https://github.com/jankeromnes/quirks"
   },
+  "type": "privileged",
   "permissions": {},
+  "installs_allowed_from": ["*"],
   "icons": {
     "128": "/icon.png"
   }

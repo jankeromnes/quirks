@@ -25,3 +25,13 @@ document.querySelector('#err').addEventListener('click', () => {
 document.querySelector('#refl').addEventListener('click', () => {
   // TODO
 });
+
+document.querySelector('#sec').addEventListener('click', () => {
+  eval("");
+  let xhr = new XMLHttpRequest();
+  xhr.onload = function() {
+    console.log(this.responseText);
+  };
+  xhr.open("get", "http://people.mozilla.org/~spenades/mortar_devtools/list.json");
+  xhr.send();
+});
